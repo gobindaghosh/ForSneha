@@ -93,7 +93,7 @@ public class ManipulateData {
             pst.setString(3,arrList[2]);
             pst.setString(4,arrList[3]);
             pst.setInt(5,Integer.parseInt(arrList[4]));
-            System.out.println("Prepared Statement bindings : " + pst.toString());
+            //System.out.println("Prepared Statement bindings : " + pst.toString());
             pst.executeUpdate();
             con.close();
             System.out.println("Data inserted Successfully");
